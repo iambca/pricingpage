@@ -30,6 +30,7 @@ body h1, h2, h3, h4, h5, h6 {
 .top-bar-section ul li > a.button.try-theranest {
   background-color: #9dc641;
   border-color: #9dc641;
+  text-shadow: 1px 1px 1px #333;
 }
 
 .top-bar-section ul li > a.button.try-theranest:hover {
@@ -40,6 +41,7 @@ body h1, h2, h3, h4, h5, h6 {
 .top-bar-section ul li > a.button.login {
   background-color: #59A1CB;
   border-color: #59A1CB;
+  text-shadow: 1px 1px 1px #333;
 }
 
 .top-bar-section ul li > a.button.login:hover {
@@ -181,10 +183,6 @@ i.fb { background-position: -39px 0; }
 
 /* IE9 FIXES <-- */
 
-
-.social-media-container {
-}
-
 .social-media-container ul {
   position: relative;
   top: -39px;
@@ -217,12 +215,14 @@ i.fb { background-position: -39px 0; }
 .custom-panel h2 {
   color: #fff;
   margin-top: 10px;
+  text-shadow: 1px 1px 1px #333;
 }
 
 .custom-panel .try-theranest {
   background-color: #9dc641;
   font-weight: bold;
   margin-top: .5em;
+  text-shadow: 1px 1px 1px #333;
 }
 
 .custom-panel .try-theranest:hover {
@@ -302,8 +302,13 @@ i.fb { background-position: -39px 0; }
   background: #30373F;
   color: #fff;
   font-weight: bold;
-  font-size: 140%;
-  padding: 1em 0;
+  font-size: 125%;
+  padding: 1em .5em;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.pricing-grid table td {
+  font-size: 1em;
 }
 
 .pricing-grid table th.no-resize {
@@ -328,18 +333,26 @@ i.fb { background-position: -39px 0; }
   text-align: center;
 }
 
-.pricing-grid .compare-heading {
+.pricing-grid .annual-savings {
+  font-weight: bold;
 }
 
-.top-bar-section ul li > a.button.try-theranest {
-  background-color: #9dc641;
-  border-color: #9dc641;
+.pricing-grid .annual-savings td {
+  font-size: 1em;
+  color: orange;
+}
+
+.pricing-grid .annual-savings td.no-bold {
+  font-weight: normal;
+  font-size: 85%;
 }
 
 .pricing-grid .button {
   background-color: #9dc641;
   border-color: #9dc641;
   margin-bottom: 0;
+  text-shadow: 1px 1px 1px #333;
+  font-weight: bold;
 }
 
 .pricing-grid .button:hover {
