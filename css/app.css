@@ -24,16 +24,17 @@ body h1, h2, h3, h4, h5, h6 {
 }
 .top-bar-section ul li:not(.has-form) a:not(.button):hover {
   background: none;
+  color: #59A1CB;
 }
 
 .top-bar-section ul li > a.button.try-theranest {
-  background-color: #85A95C;
-  border-color: #85A95C;
+  background-color: #9dc641;
+  border-color: #9dc641;
 }
 
 .top-bar-section ul li > a.button.try-theranest:hover {
-  background-color: #9dc641;
-   border-color: #9dc641;
+  background-color: #85A95C;
+   border-color: #85A95C;
 }
 
 .top-bar-section ul li > a.button.login {
@@ -52,12 +53,12 @@ body h1, h2, h3, h4, h5, h6 {
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background: none;
-  color: orange;
+  color: #59A1CB;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   background: none;
-  color: orange;
+  color: #59A1CB;
 }
 
 .footer {
@@ -207,17 +208,63 @@ i.fb { background-position: -39px 0; }
 }
 
 .custom-panel {
-  height: 200px;
-  margin-bottom: 2em;
-  background: #9BB1CB;
+  margin: 0 0 2em 0;
+  padding: 2.5em 0 2em 0;
   color: #fff;
+  background: #6A7A8B;
+}
+
+.custom-panel h2 {
+  color: #fff;
+  margin-top: 10px;
 }
 
 .custom-panel .try-theranest {
   background-color: #9dc641;
   font-weight: bold;
+  margin-top: .5em;
 }
 
 .custom-panel .try-theranest:hover {
   background-color: #89AC39;
+}
+
+.pricing-pitch h1 {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 1em 0 1.5em;
+}
+
+.archive-clients p {
+  font-size: 80%;
+  font-style: italic;
+}
+
+.pricing-questions {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.pricing-questions h3 {
+  font-size: 200%;
+}
+
+.faq {
+  margin-bottom: 2em;
+}
+
+.pricing-matrix .pricing-panel {
+  padding: 0;
+  padding-bottom: 2em;
+}
+
+.pricing-matrix .pricing-panel p {
+  font-size: 125%;
+  font-weight: 100;
+}
+
+.pricing-matrix .pricing-panel h5 {
+  color: #fff;
+  background: #59A1CB;
+  padding: 1em;
 }
