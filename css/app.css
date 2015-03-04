@@ -229,15 +229,25 @@ i.fb { background-position: -39px 0; }
   background-color: #89AC39;
 }
 
+.pricing-pitch {
+  text-align: center;
+}
+
 .pricing-pitch h1 {
   font-size: 250%;
   font-weight: bold;
   margin: 1em 0 1.5em;
 }
 
+.pricing-pitch .simple-pricing {
+  display: inline-block;
+  margin-right: .5em;
+}
+
 .archive-clients p {
   font-size: 80%;
   font-style: italic;
+  font-weight: 300;
 }
 
 .pricing-questions {
@@ -256,6 +266,8 @@ i.fb { background-position: -39px 0; }
 .pricing-matrix .pricing-panel {
   padding: 0;
   padding-bottom: 2em;
+  margin-bottom: 2em;
+  background: #fff;
 }
 
 .pricing-matrix .pricing-panel p {
@@ -265,6 +277,79 @@ i.fb { background-position: -39px 0; }
 
 .pricing-matrix .pricing-panel h5 {
   color: #fff;
-  background: #59A1CB;
+  background: #30373F;
   padding: 1em;
+}
+
+.pricing-matrix .pricing-panel ul {
+  list-style-type: none;
+}
+
+.pricing-matrix .pricing-panel ul li {
+  font-weight: 100;
+  font-size: 125%;
+  display: inline-block;
+  width: 33%;
+}
+
+.pricing-grid table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.pricing-grid table th {
+  text-align: center;
+  background: #30373F;
+  color: #fff;
+  font-weight: bold;
+  font-size: 140%;
+  padding: 1em 0;
+}
+
+.pricing-grid table th.no-resize {
+  text-align: center;
+  background: #30373F;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100%;
+  padding: 1em 0;
+}
+
+.pricing-grid table .cntr {
+  text-align: center;
+}
+
+.pricing-grid table i {
+  font-size: 200%;
+  color: green;
+}
+
+.pricing-grid table td.checked-feature {
+  text-align: center;
+}
+
+.pricing-grid .compare-heading {
+}
+
+.top-bar-section ul li > a.button.try-theranest {
+  background-color: #9dc641;
+  border-color: #9dc641;
+}
+
+.pricing-grid .button {
+  background-color: #9dc641;
+  border-color: #9dc641;
+  margin-bottom: 0;
+}
+
+.pricing-grid .button:hover {
+  background-color: #85A95C;
+   border-color: #85A95C;
+}
+
+.compare-modal-trigger {
+  display: inline-block;
+  float: right;
+  margin: -.5em .5em 2em 0;
+  font-size: 80%;
 }
