@@ -63,6 +63,10 @@ body h1, h2, h3, h4, h5, h6 {
   color: #59A1CB;
 }
 
+.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
+  background: #30373F;
+}
+
 .footer {
   background: #30373F;
 }
