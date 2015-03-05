@@ -50,7 +50,7 @@ body h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar-section .navbar-button {
-  margin: 0 1em;
+  margin: 0 1em 1em 1em;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -245,9 +245,8 @@ i.fb { background-position: -39px 0; }
 }
 
 .archive-clients p {
-  font-size: 80%;
+  font-size: 75%;
   font-style: italic;
-  font-weight: 300;
 }
 
 .pricing-questions {
@@ -257,6 +256,10 @@ i.fb { background-position: -39px 0; }
 }
 .pricing-questions h3 {
   font-size: 200%;
+}
+
+.pricing-questions p {
+  font-style: italic;
 }
 
 .faq {
